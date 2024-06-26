@@ -1,0 +1,202 @@
+.link {
+    display: block;
+    color: rgba(0, 0, 0, 0.82);
+    text-decoration: none;
+}
+
+.closeMenuIcon {
+    margin-left: auto !important;
+}
+
+.linkActive {
+    display: block;
+    text-decoration: none;
+    position: relative;
+    color: #FF3968;
+}
+
+.linkActive:before {
+    position: absolute;
+    content: "";
+    left: 0;
+    top: 10px;
+    background-color: #FF3968;
+    width: 3px;
+    height: 32px;
+    border-radius: 0 100px 100px 0;
+}
+
+.icon {
+    left: 12px;
+    font-size: 22px !important;
+    color: #92929E !important;
+    margin-top: -2px;
+    min-width: 43px !important;
+}
+
+.iconActive {
+    left: 12px;
+    font-size: 22px !important;
+    color: #FF3968 !important;
+    margin-top: -2px;
+}
+
+.itemInnerDiv {
+    font-size: 14px;
+    font-weight: 500;
+    color: inherit;
+    height: 52px;
+    margin-top: 10px !important;
+    padding-top: 16px !important;
+    padding-bottom: 16px !important;
+    padding-left: 22px !important;
+    padding-right: 21px !important;
+}
+
+.subItemInnerDiv {
+    padding-left: 64px !important;
+    font-size: 14px;
+    font-weight: 500;
+    color: inherit;
+    height: 52px;
+}
+
+.item {
+    color: inherit;
+}
+
+.toolbar {
+    background-color: #fff;
+    padding: 0px !important;
+}
+
+.appBar {
+    box-shadow: none !important;
+    right: initial !important;
+    background-color: white !important;
+    border-bottom: 1px solid #E2E2EA !important;
+}
+
+.appBarTitle {
+    color: #777;
+    font-size: 18px;
+}
+
+.menu {
+    padding-top: 30px !important;
+    width: 250px !important;
+    margin-top: 70px !important;
+    border-top: 3px solid #fafafb;
+}
+.MuiDrawer-paperAnchorDockedLeft {
+     border-right: 0px solid rgba(0, 0, 0, 0.12);  
+}
+.menuTitle {
+    margin-top: 0;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    color: #92929D;
+    text-transform: uppercase;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+
+.menuTitle2 {
+    margin-top: 90px;
+}
+
+
+.subItemInnerDiv:hover,
+.itemInnerDiv:hover {
+    background-color: rgba(3, 195, 166, 0.1) !important;
+}
+
+.listItemText {
+    font-family: 'Poppins', sans-serif !important;
+    font-size: 14px !important;
+    color: #171625;
+    font-weight: 500 !important;
+}
+
+.expandIcon {
+    color: #92929D;
+}
+
+.listItemPaddingLeft {
+    padding-left: 64px !important;
+}
+
+.submenuList {
+    padding-left: 75px !important;
+}
+
+.sidebar{
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: auto;
+    bottom: auto;
+    min-height: 100vh;
+}
+
+.profile-img {
+    top: 19px;
+    left: 1373px;
+    width: 32px;
+    height: 32px;
+}
+
+.notifyBar img {
+    margin: 8px;
+    max-width: 32px;
+    border-radius: 100%;
+}
+/* 
+.imgBlock {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+} */
+
+.textBlock {
+    margin-top: 6px;
+}
+
+.profileInfo h5 {
+    color: #171725;
+    font-size: 14px;
+    margin: 0px;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+}
+
+.profileInfo h6 {
+    color: #92929D;
+    font-size: 12px;
+    margin: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.notistatus {
+    position: relative;
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.notistatus span {
+    top: 0px;
+    right: 0px;
+    width: 12px;
+    height: 12px;
+    background: #FC5A5A 0% 0% no-repeat padding-box;
+    border-radius: 12px;
+    opacity: 1;
+    position: absolute;
+}
+.imgBlock{
+    margin: 12px 0;
+}

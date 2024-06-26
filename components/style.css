@@ -1,0 +1,450 @@
+.more {
+    height: 80px;
+}
+
+.image {
+    max-width: 80px;
+    max-height: 70px;
+    border: 1px solid #eee;
+}
+
+.productName {
+    display: block;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.productName small {
+    color: rgba(0, 0, 0, 0.4);
+}
+
+.productActive {
+    color: rgb(0, 142, 180);
+}
+
+.productInactive {
+    color: rgba(0, 0, 0, 0.3);
+}
+
+.break {
+    word-break: break-all;
+}
+
+.inStock {
+    color: rgb(122, 179, 23);
+}
+
+.outOfStock {
+    color: rgb(228, 86, 53);
+}
+
+.backorder {
+    color: rgb(251, 184, 41);
+}
+
+.preorder {
+    display: block;
+    /*color: rgb(228,86,53);*/
+}
+
+.discontinued {
+    color: rgba(0, 0, 0, 0.3);
+}
+
+.price {
+    word-break: break-all;
+}
+
+.price small {
+    display: block;
+    text-decoration: line-through;
+    color: rgba(0, 0, 0, 0.4);
+}
+
+.more {
+    padding: 40px 0;
+    text-align: center;
+}
+
+.innerItem {
+    padding: 13px 8px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border-radius: 20px;
+    margin: 4px 0;
+    border: 1px solid #fff;
+}
+
+.innerItem>Div {
+    align-self: center;
+    font-family: 'Poppins', sans-serif;
+    color: #44444F;
+    letter-spacing: 0.1px;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.innerItem:hover {
+    border-color: #30D796;
+}
+
+.listHeadH1 {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 35px;
+    color: #171725;
+    font-family: "Poppins", sans-serif;
+    display: inline-block;
+}
+
+.listdropdown {
+    font-size: 18px;
+    color: #92929D;
+    font-weight: 300;
+    position: relative;
+    padding-left: 30px;
+    font-family: "Roboto", sans-serif;
+    height: 38px;
+    display: inline-block;
+}
+
+.listdropdown select {
+    margin-left: 10px;
+    border: 0px;
+    background: transparent;
+    font-size: 18px;
+    color: #44444F;
+    font-weight: 500;
+    min-width: 129px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    text-indent: 1px
+}
+
+.listdropdown:after {
+    content: '';
+    position: absolute;
+    right: 3px;
+    top: 21px;
+    border-color: #92929d transparent rgba(146, 146, 157, 0) rgba(146, 146, 157, 0);
+    border-style: solid;
+    border-width: 6px;
+}
+
+.addnewbtn {
+    border: 1px solid rgb(0, 76, 97);
+    border-radius: 5px;
+    background: rgb(0, 76, 97);
+    color: white;
+    display: flex;
+    padding: 8px 12px;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+}
+
+.addnewbtn span {
+    font-size: 19px !important;
+    margin-right: 10px;
+}
+
+.searchbox {
+    position: relative;
+}
+
+.searchbox input {
+    width: 100%;
+    padding: 8px 35px 8px 11px;
+    border-radius: 1vh;
+    border: 0px solid #e2e2ea;
+    color: #92929D;
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+    line-height: 22px;
+}
+
+.searchbox::placeholder {
+    color: #92929D !important;
+}
+
+.searchbox input:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.searchbox span {
+    position: absolute !important;
+    font-size: 24px;
+    display: inline-block;
+    top: 11px;
+    left: 12px;
+}
+
+.actiondropdown {
+    margin-top: -2px;
+    display: block;
+}
+
+.actiondropdown select {
+    background: #fff;
+    zoom: 81%;
+    width: 100%;
+    padding: 8px 12px;
+    border: 0px solid #E2E2EA;
+    border-radius: 1vh;
+    color: #44444F;
+    font-family: 'Poppins', sans-serif;
+}
+
+.actiondropdown:after {
+    top: 21px;
+}
+
+.card {
+    transition: 0.3s;
+    border-radius: 1vh;
+    background: white;
+}
+
+.checkbox {
+    width: 16px;
+    height: 16px;
+    background: whitesmoke 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+.minHeight30 {
+    min-height: 50px;
+}
+
+.subheader {
+    padding-left: 0 !important;
+}
+
+.listdropdown2 {
+    height: 38px;
+    display: inline-flex;
+    align-items: center;
+    padding-left: 12px;
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    color: #696974;
+    font-weight: 300;
+    border-radius: 10px;
+    width: 100%;
+    position: relative;
+}
+
+.select2 {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    height: 38px;
+    color: #44444F;
+    flex: 1;
+    background: #fff;
+    border: 0;
+    padding-left: 5px;
+    font-size: 14px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    position: relative;
+    margin-left: 10px;
+}
+
+.listdropdown2:before {
+    font-family: "Font Awesome 5 Free";
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 30px;
+    text-align: center;
+    border-left: 1px solid #F1F1F5;
+    height: 38px;
+    content: '\f0d7';
+    font-size: 16px;
+    color: #92929D;
+    font-weight: 700;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.searchbox svg {
+    position: absolute;
+    right: 9px;
+    top: 10px;
+    width: 18px;
+}
+
+.prolisthead span, .prolisthead div {
+    color: #92929D;
+    font-size: 14px;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: 'Poppins', sans-serif;
+    line-height: 48px;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 0.1px;
+}
+
+.product-list {
+    padding: 1rem;
+}
+
+.product-list hr {
+    display: none;
+}
+
+/* Login page css */
+
+.loginbody {
+    background: #FAFAFB !important;
+}
+
+.brandimg {
+    max-width: 200px;
+    margin: auto;
+    display: block;
+    padding-left: 5px;
+}
+
+.loginhead p {
+    color: #92929D;
+    text-align: center;
+}
+
+.logincardbody {
+    background: #FFFFFF 0% 0% no-repeat padding-box !important;
+    box-shadow: 3px -5px 40px #CDCDD41A;
+    border-radius: 20px;
+    opacity: 1;
+    padding: 40px;
+}
+
+.forgetLink {
+    display: inline-block;
+    float: right;
+    /* text-align: right; */
+    font-size: 14px;
+    color: #673D6B;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+}
+
+.logincardbody .MuiSvgIcon-root {
+    width: 18px;
+    height: 18px;
+    margin-right: 4px;
+    fill: #673D6B;
+}
+
+.logincardbody .MuiFormControl-root span.MuiTypography-body1 {
+    color: #696974;
+    font-size: 14px;
+}
+
+.loginInput {
+    margin: 0px 0 20px;
+}
+
+.submit-btn {
+    width: 100%;
+    margin-top: 10px;
+    overflow: hidden;
+    line-height: 48px;
+    color: #FAFAFB !important;
+    font-size: 12px !important;
+    text-transform: capitalize !important;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 1px !important;
+    height: 48px !important;
+    background: #FF3968 0% 0% no-repeat padding-box;
+    box-shadow: none;
+    border: 0px;
+    border-radius: 10px;
+}
+
+.form-control input {
+    padding: 8.5px 14px !important;
+}
+.form-control{
+    border: 1px solid #DABFFF !important;
+    border-radius: 10px;
+    width: 100%;
+}
+.form-control .MuiOutlinedInput-notchedOutline{
+    border: 0px solid #DABFFF !important;
+}
+.form-control label {
+    transform: translate(12px, 11px) scale(1);
+}
+.form-control .MuiInputLabel-root.Mui-focused {
+    color: #673D6B !important;
+    background: #fff!important;
+    padding: 1px 10px!important;
+}
+.form-control .MuiInputBase-formControl{
+    margin-top: 0;
+}
+.logincardbody .MuiFormControlLabel-root {
+    margin-left: 0px;
+}
+
+@media only screen and (max-width:767px) {
+    .logincardbody {
+        padding: 18px 9px;
+    }
+    .logincardbody {
+        zoom: 80%;
+    }
+}
+
+.txtlabelhead{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    color:#44444F;
+    letter-spacing: 0.1px;
+    font-weight: 500;
+    margin: 5px 0 10px 0;
+}
+.txtlabel{
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    color:#44444F;
+    letter-spacing: 0.1px;
+    font-weight: 400;
+    margin: 0;
+    margin: 6px 0;
+}
+.detailsCard p{
+    margin: 0px;
+}
+.customdivider{
+    display: block;
+    background: #eeeeee;
+    height: 1px;
+    margin: 13px 0;
+    width: 100%;
+}
+.pro-img{
+    max-width: 80%;
+    margin: auto;
+    display: block;
+}
+.btn-default{
+	background: #FF3968 0% 0% no-repeat padding-box;
+    border-radius: 10px;
+    opacity: 1;
+    border: 1px solid #fff;
+    color: #fff;
+    padding: 10px 36px;
+    text-transform: uppercase;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+.tc {
+    text-align: center;
+}
